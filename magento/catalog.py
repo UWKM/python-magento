@@ -9,7 +9,7 @@
 
 import warnings
 
-from magento.api import API
+from .api import API
 
 
 class Category(API):

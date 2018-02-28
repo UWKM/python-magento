@@ -7,7 +7,7 @@
 
     :license: BSD, see LICENSE for more details
 '''
-from magento.api import API
+from .api import API
 
 
 class Customer(API):
