@@ -884,3 +884,18 @@ class Inventory(API):
             ]
             for product_data_pair in product_data_pairs
         ])
+
+class ProductTag(API):
+    """
+    Product Tag API
+    """
+    __slots__ = ()
+
+    def list(self, product_id=None):
+        """
+        Retreive dictionary with product tags
+
+        :param id: Integer Product ID
+        :return: Dict with tags: {'TAG_ID': {'tag_id': 'ID', 'name': 'NAME'}}
+        """
+        return self.call('product_tag.list', [product_id])

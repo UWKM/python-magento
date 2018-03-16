@@ -60,6 +60,7 @@ All available APIs
 * ProductConfigurable (`client.product_configurable`)
 * ProductImages (`client.product_images`)
 * ProductLinks (`client.product_links`)
+* ProductTags (`client.product_tag.list`)
 * ProductTierPrice (`client.product_tier_price`)
 * ProductTypes (`client.product_types`)
 * Region (`client.region`)
